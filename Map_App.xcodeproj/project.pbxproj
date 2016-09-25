@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAFC654D1D98551900D48304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC654C1D98551900D48304 /* main.m */; };
+		EAFC65501D98551900D48304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC654F1D98551900D48304 /* AppDelegate.m */; };
+		EAFC65531D98551900D48304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC65521D98551900D48304 /* ViewController.m */; };
+		EAFC65561D98551900D48304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFC65541D98551900D48304 /* Main.storyboard */; };
+		EAFC65581D98551900D48304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFC65571D98551900D48304 /* Assets.xcassets */; };
+		EAFC655B1D98551900D48304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFC65591D98551900D48304 /* LaunchScreen.storyboard */; };
+		EAFC65661D98551900D48304 /* Map_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC65651D98551900D48304 /* Map_AppTests.m */; };
+		EAFC65711D98551900D48304 /* Map_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC65701D98551900D48304 /* Map_AppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAFC65621D98551900D48304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFC65401D98551900D48304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFC65471D98551900D48304;
+			remoteInfo = Map_App;
+		};
+		EAFC656D1D98551900D48304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFC65401D98551900D48304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFC65471D98551900D48304;
+			remoteInfo = Map_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAFC65481D98551900D48304 /* Map_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Map_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFC654C1D98551900D48304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAFC654E1D98551900D48304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAFC654F1D98551900D48304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAFC65511D98551900D48304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAFC65521D98551900D48304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAFC65551D98551900D48304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAFC65571D98551900D48304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAFC655A1D98551900D48304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAFC655C1D98551900D48304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFC65611D98551900D48304 /* Map_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Map_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFC65651D98551900D48304 /* Map_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map_AppTests.m; sourceTree = "<group>"; };
+		EAFC65671D98551900D48304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFC656C1D98551900D48304 /* Map_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Map_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFC65701D98551900D48304 /* Map_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map_AppUITests.m; sourceTree = "<group>"; };
+		EAFC65721D98551900D48304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFC65451D98551900D48304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC655E1D98551900D48304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC65691D98551900D48304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAFC653F1D98551900D48304 = {
+			isa = PBXGroup;
+			children = (
+				EAFC654A1D98551900D48304 /* Map_App */,
+				EAFC65641D98551900D48304 /* Map_AppTests */,
+				EAFC656F1D98551900D48304 /* Map_AppUITests */,
+				EAFC65491D98551900D48304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFC65491D98551900D48304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC65481D98551900D48304 /* Map_App.app */,
+				EAFC65611D98551900D48304 /* Map_AppTests.xctest */,
+				EAFC656C1D98551900D48304 /* Map_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFC654A1D98551900D48304 /* Map_App */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC654E1D98551900D48304 /* AppDelegate.h */,
+				EAFC654F1D98551900D48304 /* AppDelegate.m */,
+				EAFC65511D98551900D48304 /* ViewController.h */,
+				EAFC65521D98551900D48304 /* ViewController.m */,
+				EAFC65541D98551900D48304 /* Main.storyboard */,
+				EAFC65571D98551900D48304 /* Assets.xcassets */,
+				EAFC65591D98551900D48304 /* LaunchScreen.storyboard */,
+				EAFC655C1D98551900D48304 /* Info.plist */,
+				EAFC654B1D98551900D48304 /* Supporting Files */,
+			);
+			path = Map_App;
+			sourceTree = "<group>";
+		};
+		EAFC654B1D98551900D48304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC654C1D98551900D48304 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAFC65641D98551900D48304 /* Map_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC65651D98551900D48304 /* Map_AppTests.m */,
+				EAFC65671D98551900D48304 /* Info.plist */,
+			);
+			path = Map_AppTests;
+			sourceTree = "<group>";
+		};
+		EAFC656F1D98551900D48304 /* Map_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC65701D98551900D48304 /* Map_AppUITests.m */,
+				EAFC65721D98551900D48304 /* Info.plist */,
+			);
+			path = Map_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFC65471D98551900D48304 /* Map_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFC65751D98551900D48304 /* Build configuration list for PBXNativeTarget "Map_App" */;
+			buildPhases = (
+				EAFC65441D98551900D48304 /* Sources */,
+				EAFC65451D98551900D48304 /* Frameworks */,
+				EAFC65461D98551900D48304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Map_App;
+			productName = Map_App;
+			productReference = EAFC65481D98551900D48304 /* Map_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAFC65601D98551900D48304 /* Map_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFC65781D98551900D48304 /* Build configuration list for PBXNativeTarget "Map_AppTests" */;
+			buildPhases = (
+				EAFC655D1D98551900D48304 /* Sources */,
+				EAFC655E1D98551900D48304 /* Frameworks */,
+				EAFC655F1D98551900D48304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFC65631D98551900D48304 /* PBXTargetDependency */,
+			);
+			name = Map_AppTests;
+			productName = Map_AppTests;
+			productReference = EAFC65611D98551900D48304 /* Map_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAFC656B1D98551900D48304 /* Map_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFC657B1D98551900D48304 /* Build configuration list for PBXNativeTarget "Map_AppUITests" */;
+			buildPhases = (
+				EAFC65681D98551900D48304 /* Sources */,
+				EAFC65691D98551900D48304 /* Frameworks */,
+				EAFC656A1D98551900D48304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFC656E1D98551900D48304 /* PBXTargetDependency */,
+			);
+			name = Map_AppUITests;
+			productName = Map_AppUITests;
+			productReference = EAFC656C1D98551900D48304 /* Map_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFC65401D98551900D48304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "m dychko";
+				TargetAttributes = {
+					EAFC65471D98551900D48304 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EAFC65601D98551900D48304 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAFC65471D98551900D48304;
+					};
+					EAFC656B1D98551900D48304 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAFC65471D98551900D48304;
+					};
+				};
+			};
+			buildConfigurationList = EAFC65431D98551900D48304 /* Build configuration list for PBXProject "Map_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAFC653F1D98551900D48304;
+			productRefGroup = EAFC65491D98551900D48304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFC65471D98551900D48304 /* Map_App */,
+				EAFC65601D98551900D48304 /* Map_AppTests */,
+				EAFC656B1D98551900D48304 /* Map_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFC65461D98551900D48304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC655B1D98551900D48304 /* LaunchScreen.storyboard in Resources */,
+				EAFC65581D98551900D48304 /* Assets.xcassets in Resources */,
+				EAFC65561D98551900D48304 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC655F1D98551900D48304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC656A1D98551900D48304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFC65441D98551900D48304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC65531D98551900D48304 /* ViewController.m in Sources */,
+				EAFC65501D98551900D48304 /* AppDelegate.m in Sources */,
+				EAFC654D1D98551900D48304 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC655D1D98551900D48304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC65661D98551900D48304 /* Map_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC65681D98551900D48304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC65711D98551900D48304 /* Map_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAFC65631D98551900D48304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFC65471D98551900D48304 /* Map_App */;
+			targetProxy = EAFC65621D98551900D48304 /* PBXContainerItemProxy */;
+		};
+		EAFC656E1D98551900D48304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFC65471D98551900D48304 /* Map_App */;
+			targetProxy = EAFC656D1D98551900D48304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAFC65541D98551900D48304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFC65551D98551900D48304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAFC65591D98551900D48304 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFC655A1D98551900D48304 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFC65731D98551900D48304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAFC65741D98551900D48304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFC65761D98551900D48304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Map_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "myApp.Map-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAFC65771D98551900D48304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Map_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "myApp.Map-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAFC65791D98551900D48304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Map_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "myApp.Map-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map_App.app/Map_App";
+			};
+			name = Debug;
+		};
+		EAFC657A1D98551900D48304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Map_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "myApp.Map-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map_App.app/Map_App";
+			};
+			name = Release;
+		};
+		EAFC657C1D98551900D48304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Map_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "myApp.Map-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Map_App;
+			};
+			name = Debug;
+		};
+		EAFC657D1D98551900D48304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Map_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "myApp.Map-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Map_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFC65431D98551900D48304 /* Build configuration list for PBXProject "Map_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFC65731D98551900D48304 /* Debug */,
+				EAFC65741D98551900D48304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFC65751D98551900D48304 /* Build configuration list for PBXNativeTarget "Map_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFC65761D98551900D48304 /* Debug */,
+				EAFC65771D98551900D48304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAFC65781D98551900D48304 /* Build configuration list for PBXNativeTarget "Map_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFC65791D98551900D48304 /* Debug */,
+				EAFC657A1D98551900D48304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAFC657B1D98551900D48304 /* Build configuration list for PBXNativeTarget "Map_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFC657C1D98551900D48304 /* Debug */,
+				EAFC657D1D98551900D48304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAFC65401D98551900D48304 /* Project object */;
+}
