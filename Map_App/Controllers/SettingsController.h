@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SettingsController.h
 //  Map_App
 //
 //  Created by m dychko on 9/25/16.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SettingsController : UIViewController
 
 @end
-
